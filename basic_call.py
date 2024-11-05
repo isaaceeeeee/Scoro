@@ -21,7 +21,7 @@ def fetch_data_with_pagination(url, payload):
             return None
     return all_data
 
-# Simle API Request
+# Simple API Request
 url = "https://{company_site}/api/v2/quotes/list" # Replace {company_site} with your own site 
 api_key = "API_KEY" 
 company_account_id = "ACCOUNT_ID"
