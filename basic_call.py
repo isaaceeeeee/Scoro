@@ -35,4 +35,5 @@ payload = {
 }
 df = fetch_data_with_pagination(url, payload)
 if df:
+    print(json.dumps(df, indent=4))
     df = pd.DataFrame(df)
