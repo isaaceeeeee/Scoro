@@ -22,7 +22,7 @@ def fetch_data_with_pagination(url, payload):
     return all_data
 
 # Simple API Request
-url = "https://{company_site}/api/v2/projects/list" # Replace {company_site} with your own URL 
+url = "https://{company_site}/api/v2/bills/list" # Replace {company_site} with your own URL 
 api_key = "API_KEY" 
 company_account_id = "ACCOUNT_ID"
 payload = {
@@ -36,7 +36,7 @@ payload = {
 # Example of filters
 '''
     "filter": {
-        "no": 12, # Quote No as an integer
+        "no": 12, # Bill No as an integer
         "date_created": {
             "from_date": "2023-01-01", # Filtering a range of dates 
             "to_date": "2024-01-01"
