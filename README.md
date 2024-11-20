@@ -2,7 +2,7 @@ Scoro Integration Tools
 
 This repository contains scripts and tools for automating tasks and data integration with the Scoro API. The primary focus is simplifying project and invoice management, improving data consistency, and enhancing workflow efficiency.
 
-<b>Features</b>
+<h1><b>Features</b></h1>h1>
 
 Invoice Automation: 
 
