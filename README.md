@@ -30,11 +30,12 @@
 <h2><b>Usage</b></h2>
 <h3><b>1. API Configuration</b></h3>
 <p>Update the <code>config.json</code> file with your Scoro API credentials:</p>
-<pre>
 <p>json</p>
+<pre>
 <code>
+site = "you_company_site"
 {
-  "base_url": "https://syzygy.scoro.com/api/v2/",
+  "base_url": f"https://{site}.scoro.com/api/v2/",
   "api_key": "your_api_key"
 }
 </code>
