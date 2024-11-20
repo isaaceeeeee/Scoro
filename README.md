@@ -16,7 +16,7 @@
 <code>git clone https://github.com/isaaceeeeee/Scoro.git</code>
 </pre>
 <h3><b>Install dependencies:</b></h3>
-<p style="color: greenyellow;">bash</p>
+<p style="color: greenyellow; font-weight: bold;">bash</p>
 <pre>
 <code>pip install -r requirements.txt</code>
 </pre>
@@ -24,15 +24,16 @@
 <h2><b>Usage (Python)</b></h2>
 <h3><b>1. API Configuration</b></h3>
 <p>Update the <code>config.json</code> file with your Scoro API credentials:</p>
-<p style="color: red;">json</p>
+<p style="color: red; font-weight: bold;">json</p>
 <pre>
-{
-  "base_url" : "https://your_site.scoro.com/api/v2/",
-  "api_key": "your_api_key",
-  "company_account_id": "your_company_account_id"
-  "lang": "eng",
-}
-</code>
+    <code>
+    {
+        "base_url" : "https://your_site.scoro.com/api/v2/",
+        "api_key": "your_api_key",
+        "company_account_id": "your_company_account_id"
+        "lang": "eng",
+    }
+    </code>
 </pre>
 <h3><b>2. Run Scripts</b></h3>
 <p>Run individual scripts depending on your task:</p>
@@ -41,7 +42,7 @@
 </pre>
 <hr>
 <h2><b>Usage (VBA)</b></h2>
-<h3><b>1. JSONify Code</b></h3>
+<h3><b>1. json Parser</b></h3>
 <h3><b>2. Create Macro Environment</b></h3>
 <hr>
 <h2><b>Folder Structure</b></h2>
