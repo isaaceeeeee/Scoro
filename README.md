@@ -1,50 +1,67 @@
 <h1><b>Scoro Integration Tools</b></h1>
-<p>This repository contains scripts and tools for automating tasks and data integration with the Scoro API. The primary focus is simplifying project and invoice management, improving data consistency, and enhancing workflow efficiency.</p>
-<br>
-<h1><b>Features</b></h1>
-<h3>Invoice Automation:</h3>
-<p>Retrieves, processes, and exports invoice data.</p>
-<br>
-<h3>Project Mapping:</h3>
+<p>This repository contains scripts and tools for automating tasks and integrating data with the Scoro API. The primary focus is on simplifying project and invoice management, improving data consistency, and enhancing workflow efficiency.</p>
+<hr>
+
+<h2><b>Features</b></h2>
+<h3><b>Invoice Automation</b></h3>
+<p>Retrieves, processes, and exports invoice data efficiently.</p>
+
+<h3><b>Project Mapping</b></h3>
 <p>Maps project IDs and names to ensure accurate system alignment.</p>
-<br>
-<h3>Custom Reporting:</h3>
+
+<h3><b>Custom Reporting</b></h3>
 <p>Generates Excel reports for project tracking and financial analysis.</p>
-<br>
-<h1><b>Installation</b></h1>
-<h3>Clone this repository:</h3>
-<b>bash</b>
-<p>Copy code</p>
-<p>git clone https://github.com/isaaceeeeee/Scoro.git</p>
-<h3>Install dependencies:</h3>
-<b>bash</b>
-<p>Copy code</p>
-<p>pip install -r requirements.txt</p>
-<br>
-<h1><b>Usage</b></h1>
+<hr>
 
-<h3>1. API Configuration</h3>
-Update the config.json file with your Scoro API credentials:
+<h2><b>Installation</b></h2>
+<h3><b>Clone this repository:</b></h3>
+<pre>
+<code>git clone https://github.com/isaaceeeeee/Scoro.git</code>
+</pre>
 
-json
-Copy code
-{  
-  "base_url": "https://api.scoro.com",  
-  "api_key": "your_api_key"  
-}  
-2. Run Scripts
-Run individual scripts depending on your task:
+<h3><b>Install dependencies:</b></h3>
+<pre>
+<code>pip install -r requirements.txt</code>
+</pre>
+<hr>
 
-bash
-Copy code
-python pvlab_invoices.py
-<br>  
-<h1><b>Folder Structure</b></h1>
-scripts/: Core automation scripts.
-data/: Example input/output files.
-docs/: Additional documentation.
-Roadmap
-Add real-time status updates for tasks.
-Expand functionality to other Scoro modules.
-Contributing
-Contributions are welcome! Submit an issue or pull request to propose changes.
+<h2><b>Usage</b></h2>
+<h3><b>1. API Configuration</b></h3>
+<p>Update the <code>config.json</code> file with your Scoro API credentials:</p>
+<pre>
+<code>
+{
+  "base_url": "https://api.scoro.com",
+  "api_key": "your_api_key"
+}
+</code>
+</pre>
+
+<h3><b>2. Run Scripts</b></h3>
+<p>Run individual scripts depending on your task:</p>
+<pre>
+<code>python pvlab_invoices.py</code>
+</pre>
+<hr>
+
+<h2><b>Folder Structure</b></h2>
+<ul>
+<li><b>scripts/</b>: Core automation scripts.</li>
+<li><b>data/</b>: Example input/output files.</li>
+<li><b>docs/</b>: Additional documentation.</li>
+</ul>
+<hr>
+
+<h2><b>Roadmap</b></h2>
+<ul>
+<li>Add real-time status updates for tasks.</li>
+<li>Expand functionality to other Scoro modules.</li>
+</ul>
+<hr>
+
+<h2><b>Contributing</b></h2>
+<p>Contributions are welcome! Submit an issue or pull request to propose changes or suggest new features.</p>
+<hr>
+
+<h2><b>License</b></h2>
+<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
