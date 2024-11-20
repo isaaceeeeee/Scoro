@@ -2,10 +2,20 @@ Scoro Integration Tools
 
 This repository contains scripts and tools for automating tasks and data integration with the Scoro API. The primary focus is simplifying project and invoice management, improving data consistency, and enhancing workflow efficiency.
 
-Features
-Invoice Automation: Retrieves, processes, and exports invoice data.
-Project Mapping: Maps project IDs and names to ensure accurate system alignment.
-Custom Reporting: Generates Excel reports for project tracking and financial analysis.
+<b>Features</b>
+
+Invoice Automation: 
+
+Retrieves, processes, and exports invoice data.
+
+Project Mapping: 
+
+Maps project IDs and names to ensure accurate system alignment.
+
+Custom Reporting: 
+
+Generates Excel reports for project tracking and financial analysis.
+
 Installation
 Clone this repository:
 bash
