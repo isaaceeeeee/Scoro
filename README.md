@@ -15,11 +15,13 @@
 
 <h2><b>Installation</b></h2>
 <h3><b>Clone this repository:</b></h3>
+<p>bash</p>
 <pre>
 <code>git clone https://github.com/isaaceeeeee/Scoro.git</code>
 </pre>
 
 <h3><b>Install dependencies:</b></h3>
+<p>bash</p>
 <pre>
 <code>pip install -r requirements.txt</code>
 </pre>
@@ -29,9 +31,10 @@
 <h3><b>1. API Configuration</b></h3>
 <p>Update the <code>config.json</code> file with your Scoro API credentials:</p>
 <pre>
+<p>json</p>
 <code>
 {
-  "base_url": "https://api.scoro.com",
+  "base_url": "https://syzygy.scoro.com/api/v2/",
   "api_key": "your_api_key"
 }
 </code>
