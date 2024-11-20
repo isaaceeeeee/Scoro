@@ -3,15 +3,12 @@
 <br>
 <h1><b>Features</b></h1>
 <h3>Invoice Automation:</h3>
-<br>
 <p>Retrieves, processes, and exports invoice data.</p>
 <br>
 <h3>Project Mapping:</h3>
-<br>
 <p>Maps project IDs and names to ensure accurate system alignment.</p>
 <br>
 <h3>Custom Reporting:</h3>
-<br>
 <p>Generates Excel reports for project tracking and financial analysis.</p>
 <br>
 <h1><b>Installation</b></h1>
