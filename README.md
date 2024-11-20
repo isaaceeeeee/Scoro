@@ -16,7 +16,7 @@
 <code>git clone https://github.com/isaaceeeeee/Scoro.git</code>
 </pre>
 <h3><b>Install dependencies:</b></h3>
-<p style="color: yellow;">bash</p>
+<p style="color: greenyellow;">bash</p>
 <pre>
 <code>pip install -r requirements.txt</code>
 </pre>
